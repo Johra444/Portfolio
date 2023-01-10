@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         gris: '#202023',
-        gris2: '#38343c',
+        gris2: 'rgba(255, 255, 255, 0.06)',
         current: 'currentColor',
         myPurple: '#805AD5',
         peach: '#fbd38d',

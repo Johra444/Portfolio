@@ -27,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/luffy.jpg" />
       </Head>
       <Header />
-      <div class="container max-w-lg mx-auto px-6 ">
+      <div class="container max-w-lg mx-auto px-8 ">
         <Image src={gif} alt="gif" className='animate-opacityTransition2'/>
         <article>
           <div className='animate-opacityTransition2'>
@@ -39,7 +39,7 @@ export default function Home() {
                 <p className='text-4xl font-bold'>Johra</p>
                 <p className='text-l '>One piece, cryptocurrency, privacy</p>
               </div>
-              <div className=' w-[20%]'>
+              <div className=' w-[20%] mt-4 mb-4 ml-auto mr-auto md:m-0'>
                 <Image src={luffy} alt="gif" className='rounded-full'/>
               </div>
             </div>

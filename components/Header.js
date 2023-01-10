@@ -7,7 +7,7 @@ export default function Header() {
     const currentTheme = theme === 'system' ? 'dark' : theme;
 
     return (
-        <header className='flex z-50 w-full h-14 bg-[#F4EDE4] dark:bg-gris sticky top-0'>
+        <header className='flex z-50 w-full h-14 backdrop-blur  bg-[#F4EDE4]/30 dark:bg-gris/30 sticky top-0'>
             <div class="container max-w-screen-md mx-auto px-5 flex items-center relative">
                 <div className='flex items-end'>
                     <Link href='/'>
