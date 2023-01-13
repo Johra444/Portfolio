@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
-import Beries from "../public/beries.png";
+import Beries from "../public/Beries.png";
 import blueberry from "../public/blueberry.png";
 import cryptoList from "../public/cryptoList.png";
 import hlc from "../public/hlc.png";
