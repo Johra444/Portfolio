@@ -10,6 +10,8 @@ import Beries from "../public/Beries.png";
 import blueberry from "../public/blueberry.png";
 import cryptoList from "../public/cryptoList.png";
 import hlc from "../public/hlc.png";
+import alien from "../public/alien.png";
+import hlchub from "../public/hlchub.png";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -65,8 +67,8 @@ export default function Home() {
               target="_blank"
             >
               <div className="pb-8">
-                <Image src={Beries} alt="image" className="rounded-lg" />
-                <p className="font-bold text-xl py-2">BeRies</p>
+                <Image src={alien} alt="image" className="rounded-lg" />
+                <p className="font-bold text-xl py-2">Alien</p>
                 <p className="text-sm">
                   Mint differents pack (NFTs), burn them and fill a form to
                   receive the items (not live yet)
@@ -86,10 +88,7 @@ export default function Home() {
                 </p>
               </div>
             </a>
-            <a
-              href="https://withdraw-beries.vercel.app/"
-              target="_blank"
-            >
+            <a href="https://withdraw-beries.vercel.app/" target="_blank">
               <div className="pb-8">
                 <Image src={hlc} alt="image" className="rounded-lg" />
                 <p className="font-bold text-xl py-2">BeRies x HoodlifeClub</p>
@@ -98,10 +97,7 @@ export default function Home() {
                 </p>
               </div>
             </a>
-            <a
-              href="https://blueberry-coin.vercel.app/"
-              target="_blank"
-            >
+            <a href="https://blueberry-coin.vercel.app/" target="_blank">
               <div className="pb-2">
                 <Image src={blueberry} alt="image" className="rounded-lg" />
                 <p className="font-bold text-xl py-2">Blueberry Coin</p>
@@ -111,10 +107,7 @@ export default function Home() {
                 </p>
               </div>
             </a>
-            <a
-              href="https://johra444.github.io/Crypto-List/"
-              target="_blank"
-            >
+            <a href="https://johra444.github.io/Crypto-List/" target="_blank">
               <div className="pb-2">
                 <Image src={cryptoList} alt="image" className="rounded-lg" />
                 <p className="font-bold text-xl py-2">CryptoGOGO</p>
