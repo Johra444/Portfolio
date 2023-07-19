@@ -45,16 +45,16 @@ export default function Home() {
             </div>
           </div>
           <div className="animate-opacityTransition">
-            <h1 className="text-xl font-semibold underline underline-offset-8 decoration-gris2 decoration-4">
+            <h1 className="text-xl font-semibold underline underline-offset-8 decoration-myPurple  decoration-4">
               Work
             </h1>
             <p className="mt-4 indent-3 text-justify">
-              I'm a french freelance full-stack Blockchain developer (fiouuu),
-              I've always liked being on my computer and didn't know what to do
-              in life, i started to make some money on internet in 2020 during
-              covid, then wanted to invest in cryptocurrency, my bank had banned
-              every crypto exchange, i found a way and ALL IN. Then I've got
-              interested in code, to audit smart contracts myself.
+              I'm a French freelance developer who has always enjoyed spending
+              time on my computer, but I was uncertain about my career path.
+              During the COVID-19 pandemic, I started generating income online,
+              and this experience ignited my interest in cryptocurrency. I aimed
+              to be able to comprehend Solidity, which led me to embark on a
+              journey of learning to code.
             </p>
             <div className="flex justify-center m-5">
               <Link href="/works">
@@ -63,7 +63,7 @@ export default function Home() {
                 </button>
               </Link>
             </div>
-            <h1 className="text-xl font-semibold underline underline-offset-8 decoration-gris2 decoration-4">
+            <h1 className="text-xl font-semibold underline underline-offset-8 decoration-myPurple decoration-4">
               Bio
             </h1>
             <div className="flex mt-4">

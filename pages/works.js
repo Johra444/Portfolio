@@ -61,6 +61,32 @@ export default function Home() {
               </div>
             </a>
             <a
+              href="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
+              target="_blank"
+            >
+              <div className="pb-8">
+                <Image src={Beries} alt="image" className="rounded-lg" />
+                <p className="font-bold text-xl py-2">BeRies</p>
+                <p className="text-sm">
+                  Mint differents pack (NFTs), burn them and fill a form to
+                  receive the items (not live yet)
+                </p>
+              </div>
+            </a>
+            <a
+              href="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
+              target="_blank"
+            >
+              <div className="pb-8">
+                <Image src={Beries} alt="image" className="rounded-lg" />
+                <p className="font-bold text-xl py-2">BeRies</p>
+                <p className="text-sm">
+                  Mint differents pack (NFTs), burn them and fill a form to
+                  receive the items (not live yet)
+                </p>
+              </div>
+            </a>
+            <a
               href="https://withdraw-beries.vercel.app/"
               target="_blank"
             >
