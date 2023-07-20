@@ -12,6 +12,7 @@ import cryptoList from "../public/cryptoList.png";
 import hlc from "../public/hlc.png";
 import alien from "../public/alien.png";
 import hlchub from "../public/hlchub.png";
+import ethporto from "../public/ethporto.png";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -50,20 +51,31 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 text-center">
             <a
-              href="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
+              href="https://hlc-hub-a18e.vercel.app/Magnet"
               target="_blank"
             >
               <div className="pb-8">
-                <Image src={Beries} alt="image" className="rounded-lg" />
-                <p className="font-bold text-xl py-2">BeRies</p>
+                <Image src={hlchub} alt="image" className="rounded-lg" contain />
+                <p className="font-bold text-xl py-2">🚧 HLC Hub 🚧</p>
                 <p className="text-sm">
-                  Mint differents pack (NFTs), burn them and fill a form to
-                  receive the items (not live yet)
+                  New hub of HoodlifeClub
                 </p>
               </div>
             </a>
             <a
-              href="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
+              href="https://twitter.com/Sismo_eth/status/1637846392788905984"
+              target="_blank"
+            >
+              <div className="pb-8">
+                <Image src={ethporto} alt="image" className="rounded-lg" />
+                <p className="font-bold text-xl py-2">🥇 Eth Porto</p>
+                <p className="text-sm">
+                  Winner of ETH Porto hackathon
+                </p>
+              </div>
+            </a>
+            <a
+              href="https://www.888alien.com/"
               target="_blank"
             >
               <div className="pb-8">
@@ -76,7 +88,7 @@ export default function Home() {
               </div>
             </a>
             <a
-              href="https://repository-images.githubusercontent.com/279611541/b7e1e580-c611-11ea-9b24-523c65baea0e"
+              href="https://beries.xyz/"
               target="_blank"
             >
               <div className="pb-8">
