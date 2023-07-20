@@ -12,7 +12,7 @@ import cryptoList from "../public/cryptoList.png";
 import hlc from "../public/hlc.png";
 import alien from "../public/alien.png";
 import hlchub from "../public/hlchub.png";
-import ethporto from "../public/ethporto.png";
+import ethporto from "../public/eth.png";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
