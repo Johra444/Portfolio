@@ -13,6 +13,7 @@ import hlc from "../public/hlc.png";
 import alien from "../public/alien.png";
 import hlchub from "../public/hlchub.png";
 import ethporto from "../public/eth.png";
+import istanbul from "../public/istanbul.jpeg";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -41,36 +42,48 @@ export default function Home() {
 
           <p className="font-bold ">Front-end</p>
           <p className="pb-8">
-            HTML, CSS, Javscript, ReactJs, NextJs, TailwindCss
+          Typescript, ReactJs, NextJs, TailwindCss
           </p>
 
           <p className="font-bold pr-4 ">Other</p>
-          <p className="pb-10">Solidity, EtherJs, Hardhat, Git, Firebase</p>
+          <p className="pb-10">Solidity, EtherJs, Hardhat, Git, Firebase ect</p>
           <h1 className="text-xl font-semibold underline underline-offset-8  decoration-4 pb-10 decoration-peach">
             Works
           </h1>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 text-center">
+          <a
+              href="https://ethglobal.com/showcase/grow-or-gamble-wv16o"
+              target="_blank"
+            >
+              <div className="pb-8">
+                <Image src={istanbul} alt="image" className="rounded-lg" contain />
+                <p className="font-bold text-xl py-2">Eth Istanbul</p>
+                <p className="text-sm">
+                Rewarded at ETH Istanbul hackathon
+                </p>
+              </div>
+            </a>
             <a
-              href="https://hlc-hub-a18e.vercel.app/Magnet"
+              href="https://hlc-hub-final-k724.vercel.app/"
               target="_blank"
             >
               <div className="pb-8">
                 <Image src={hlchub} alt="image" className="rounded-lg" contain />
-                <p className="font-bold text-xl py-2">🚧 HLC Hub 🚧</p>
+                <p className="font-bold text-xl py-2">HLC Hub</p>
                 <p className="text-sm">
                   New hub of HoodlifeClub
                 </p>
               </div>
             </a>
             <a
-              href="https://twitter.com/Sismo_eth/status/1637846392788905984"
+              href="https://twitter.com/eth_porto/status/1637157159682097152"
               target="_blank"
             >
               <div className="pb-8">
                 <Image src={ethporto} alt="image" className="rounded-lg" />
                 <p className="font-bold text-xl py-2">🥇 Eth Porto</p>
                 <p className="text-sm">
-                  Winner of ETH Porto hackathon
+                  Winner of ETH Porto hackathon (Bundler wallet)
                 </p>
               </div>
             </a>
@@ -82,13 +95,12 @@ export default function Home() {
                 <Image src={alien} alt="image" className="rounded-lg" />
                 <p className="font-bold text-xl py-2">Alien</p>
                 <p className="text-sm">
-                  Mint differents pack (NFTs), burn them and fill a form to
-                  receive the items (not live yet)
+                  888Alien is a collection of 888 unique aliens on Arbitrum
                 </p>
               </div>
             </a>
             <a
-              href="https://beries.xyz/"
+              href="https://be-ries-last.vercel.app/"
               target="_blank"
             >
               <div className="pb-8">
