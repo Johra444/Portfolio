@@ -1,19 +1,17 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import gif from "../public/gif.gif";
 import dna from "../public/dna.gif";
 import Image from "next/image";
-import Link from "next/link";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import Beries from "../public/Beries.png";
-import blueberry from "../public/blueberry.png";
 import cryptoList from "../public/cryptoList.png";
-import hlc from "../public/hlc.png";
-import alien from "../public/alien.png";
 import hlchub from "../public/hlchub.png";
 import ethporto from "../public/eth.png";
 import istanbul from "../public/istanbul.jpeg";
+import whatsnext from '../public/whatsnext.png'
+import agency from '../public/agency.png'
+
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -46,11 +44,35 @@ export default function Home() {
           </p>
 
           <p className="font-bold pr-4 ">Other</p>
-          <p className="pb-10">Solidity, EtherJs, Hardhat, Git, Firebase ect</p>
+          <p className="pb-10">Solidity, EtherJs, Hardhat, Git, MongoDB, ect</p>
           <h1 className="text-xl font-semibold underline underline-offset-8  decoration-4 pb-10 decoration-peach">
             Works
           </h1>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 text-center">
+          <a
+              href="https://agence-six.vercel.app/"
+              target="_blank"
+            >
+              <div className="pb-8">
+                <Image src={agency} alt="image" className="rounded-lg" contain />
+                <p className="font-bold text-xl py-2">🚧 Scratch 🚧</p>
+                <p className="text-sm">
+                Agency I'm curently building
+                </p>
+              </div>
+            </a>
+          <a
+              href="https://www.whatsnext.quest/en/"
+              target="_blank"
+            >
+              <div className="pb-8">
+                <Image src={whatsnext} alt="image" className="rounded-lg" contain />
+                <p className="font-bold text-xl py-2">What's Next</p>
+                <p className="text-sm">
+                Saas I made for fun
+                </p>
+              </div>
+            </a>
           <a
               href="https://ethglobal.com/showcase/grow-or-gamble-wv16o"
               target="_blank"
@@ -88,18 +110,6 @@ export default function Home() {
               </div>
             </a>
             <a
-              href="https://www.888alien.com/"
-              target="_blank"
-            >
-              <div className="pb-8">
-                <Image src={alien} alt="image" className="rounded-lg" />
-                <p className="font-bold text-xl py-2">Alien</p>
-                <p className="text-sm">
-                  888Alien is a collection of 888 unique aliens on Arbitrum
-                </p>
-              </div>
-            </a>
-            <a
               href="https://be-ries-last.vercel.app/"
               target="_blank"
             >
@@ -112,25 +122,8 @@ export default function Home() {
                 </p>
               </div>
             </a>
-            <a href="https://withdraw-beries.vercel.app/" target="_blank">
-              <div className="pb-8">
-                <Image src={hlc} alt="image" className="rounded-lg" />
-                <p className="font-bold text-xl py-2">BeRies x HoodlifeClub</p>
-                <p className="text-sm">
-                  Almost same as BeRies, but for one item (deployed on Arbitrum)
-                </p>
-              </div>
-            </a>
-            <a href="https://blueberry-coin.vercel.app/" target="_blank">
-              <div className="pb-2">
-                <Image src={blueberry} alt="image" className="rounded-lg" />
-                <p className="font-bold text-xl py-2">Blueberry Coin</p>
-                <p className="text-sm">
-                  Fanmade Blueberry Coin (ICO) on testnet, airdrop for GBC
-                  holders
-                </p>
-              </div>
-            </a>
+            
+           
             <a href="https://johra444.github.io/Crypto-List/" target="_blank">
               <div className="pb-2">
                 <Image src={cryptoList} alt="image" className="rounded-lg" />
