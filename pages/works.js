@@ -44,7 +44,7 @@ export default function Home() {
           </p>
 
           <p className="font-bold pr-4 ">Other</p>
-          <p className="pb-10">Solidity, EtherJs, Hardhat, Git, MongoDB, ect</p>
+          <p className="pb-10">PostgreSQL, Solidity, EtherJs, Hardhat, Git, ect</p>
           <h1 className="text-xl font-semibold underline underline-offset-8  decoration-4 pb-10 decoration-peach">
             Works
           </h1>
